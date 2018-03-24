@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-CSS3/
+
 =======
 # Created by https://www.gitignore.io/api/vim
 
@@ -16,6 +16,7 @@ Session.vim
 tags
 
 php_avancado/
+php_intermediario/
 
 # End of https://www.gitignore.io/api/vim
 

@@ -1,0 +1,8 @@
+
+degrade{
+	width: 300px;
+	height: 400px;
+	background-color: red;
+	background:linear-gradient(-45deg, white, blue);
+	border-style:
+}

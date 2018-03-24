@@ -1,0 +1,6 @@
+.wordwrap{
+	width: 150px;
+	height: 150px;
+	border: 1px solid blue;
+	word-wrap: break-word; /*Faz a quebra de linha para caber dentro do elemento*/
+}
