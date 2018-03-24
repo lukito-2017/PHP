@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+}
+.texto{
+	width: 200px;
+	height: 200px;
+	background-color:blue;
+	color: #FF0000;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+
+	/*propriedade display (none, inline, block, inlineblock*/
+	display: block;
+}

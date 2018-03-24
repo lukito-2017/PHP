@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora IMC</title>
+	<style type="text/css">
+		#fieldset{
+			width: 150px;
+		}
+		#imc{
+			height: 100px;
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset id="fieldset">
+			<legend>Calculo do IMC</legend>
+			Altura em metros:<br>
+			<input type="text" name="altura" id="altura"><br><br>
+			Peso em Kilos<br>
+			<input type="text" name="peso" id="peso"><br><br>
+			<button>Calcular IMC</button>
+		</fieldset>
+	</form>
+	<div id="imc"></div>
+	<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="projeto_imc.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalhando com Ajax</title>
+	<style type="text/css">
+		.div{
+			background-color: #CB0003;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 30px;
+			position: absolute;
+			left: 400px;
+			color: #FFF;
+		}
+		.botao{
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<!--
+	<div class="div"></div>
+	<button class="botao">Buscar</button>
+	-->
+
+	<form id="form" method="GET" accept-charset="utf-8">
+		Nome:<br>
+		<input type="text" name="nome"><br><br>
+		Idade:<br>
+		<input type="text" name="idade"><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+
+	<div class="div"></div>
+	<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="requisicaoAjaxComp.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

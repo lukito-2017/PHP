@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criando Menu Drop Down</title>
+	<style type="text/css" media="screen">
+		body{
+			margin: 0;
+		}
+		.menu{
+			margin: 0px;
+			height: 40px;
+			background-color: #ef5423;
+		}
+		.menu ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.menu li{
+			float:  left;
+			padding: 0px 20px;
+			line-height: 40px;
+			cursor: pointer;
+
+		}
+		.menu2{
+			position: absolute;
+			width: 150px;
+			height: 150px;
+			background-color: #ef5423;
+			display: none;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li>
+				Home
+				<div class="menu2">
+					<a href="">Opcao 1</a><br>
+					opcao 2 <br>
+					opcao 3 <br>
+					opcao 4 <br>
+				</div>
+			</li>
+			<li>Patrocinio
+				<div class="menu2">
+					opcao 1<br>
+					opcao 2 <br>
+					opcao 3 <br>
+					opcao 4 <br>
+				</div>
+			</li>
+			<li>Eventos
+				<div class="menu2">
+					opcao 1<br>
+					opcao 2 <br>
+					opcao 3 <br>
+					opcao 4 <br>
+				</div>
+			</li>
+			<li>Contato</li>
+			<li>Viaje Conosco</li>
+		</ul>
+	</div>
+
+	<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="projeto_menudropdown.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

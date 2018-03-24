@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8" />
+  		<meta name="viewport" content="width=device-width, initial-scale=1" />
+  		<link rel="stylesheet" href="bootstrap.min.css">
+  		<script type="text/javascript" src="jquery.min.js"></script>
+  		<script type="text/javascript" src="bootstrap.min.js"></script>
+   		<title>Usando Bootstrape</title>
+	</head>
+  <body>
+  	<!--
+        ---------------------------CONTAINER----------------------------------------------------------------------------------------------------------------------------
+  	- É preciso um elemento usado como container para abarcar todos os elementos do site. Existem dois tipos de container:
+  	- Com a class="container" ele utiliza uma largura máxima permitida
+  	- Com a class="container-fluid" ele utiliza toda a largura da tela
+  	- O Bootstrap já deixa o site todo responsivo automaticamente
+  	-->
+	<div class="container"> <!-- Com a class="container-fluid" ele utiliza toda a largura da tela-->
+		<h1>Meu primeiro sistema bootstrap</h1>
+		<p>Este é meu primeio teste</p>
+	</div>
+	<!--
+      -----------------------------GRID--------------------------------------------------------------------------------------------------------------------------------------
+	conceito de grid - como se fosse tabelas. No bootstrap aceita-se até 12 colunas.  essas 12 colunas podem ser
+	divididas pra cada lado. tipo: 12/2 = 6 pra cada lado.
+	cada div tem uma nomenclatura específica de classe
+        sm - funciona até na largura de tablets
+        xs - funciona até na largura de smartphones
+        md - funciona até na largura de desktops
+        lg - funciona para grandes monitores
+	-->
+	<div class="row">
+		<div class="col-sm-6" style="text-align: center; background-color: #999">A</div>
+		<div class="col-sm-6" style="text-align: center; background-color: #CC2">B</div>
+	</div>
+    <!--
+      -----------------------------ESTILOS DE TEXTOS----------------------------------------------------------------------------------------------------------------
+      Alguns estilos e tags que o bootstrap padroniza
+    -->
+    <p>Essa é uma frase de teste para aplicar os <mark>estilos</mark> padronizados do <abbr title="Um framework massa">bootstrap</abbr></p>
+    <blockquote class="blockquote-reverse"> <!--essa classe deixa o blockquote no lado direito-->
+        citação famosa de um autor desconhecido
+        <footer>Autor desconhecido</footer>
+    </blockquote>
+    <p>alguns estilos são padronizados no bootstrap como o <code>blockquote</code> e o <code>footer</code></p>
+    <p>Para salvar aperta <kbd>ctrl + s</kbd></p>
+    <pre>
+        Aqui é um
+        texto pré-formatado
+    </pre>
+    <p class="text-danger text-center">Isso é um perigo e não pode ser feito e o texto esta alinhado no centro</p> <!--classe especifica do bootstrap ainda tem class bg's -->
+    <p class="text-uppercase">deixa o texto maiusculo</p>
+  </body>
+</html>

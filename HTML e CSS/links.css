@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color:#000000;
+
+}
+a:hover{ /*Ao passar o mouse tem-se o efeito desejado*/
+	text-decoration: underline;
+	background-color: yellow;
+	text-transform: uppercase;
+}
+a:active{ /*Quando o link estiver ativo*/
+
+}

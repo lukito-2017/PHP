@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+}
+.texto{
+	color:red;
+	font-size: 20px;
+	font-family:serif, Verdana;
+	font-weight:bold; /*níveis de negritude*/
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	background-color: #999999;
+	text-transform: capitalize; /*Deixa o texto maiusculo ou minusculo ou primeira letra de cada palavra em maiusca: uppercase, lowercase ou capitalize*/
+	text-decoration: line-through; /*linhas no texto*/
+
+	/*Aqui começa o conceito de box model*/
+	margin:auto; 
+	margin-top: 20px;
+	padding-top: 20px;
+}
+/*texto flutuante*/
+.flutuante{
+	position: absolute; /*elemento indpendente dos outros. tem a opção absolute e fixed*/
+	top:10px;
+	left: 650px;
+}

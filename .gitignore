@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+CSS3/
+=======
+# Created by https://www.gitignore.io/api/vim
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+php_avancado/
+
+# End of https://www.gitignore.io/api/vim
+
+>>>>>>> 7d2e64e350b11c53bd18386cb51350e18e9e26d5
