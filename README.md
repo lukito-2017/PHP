@@ -1,1 +1,1 @@
-Ponto em prática o que foi proposto no curso.
+Pondo em prática o que foi proposto no curso.
